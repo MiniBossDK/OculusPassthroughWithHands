@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 406236293}
   m_Layer: 0
   m_Name: Rotate
-  m_TagString: Untagged
+  m_TagString: Interactions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1333,7 +1333,7 @@ GameObject:
   - component: {fileID: 974540003}
   m_Layer: 0
   m_Name: Move
-  m_TagString: Untagged
+  m_TagString: Interactions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1514,7 +1514,7 @@ GameObject:
   - component: {fileID: 1366405015}
   m_Layer: 0
   m_Name: Scale
-  m_TagString: Untagged
+  m_TagString: Interactions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
