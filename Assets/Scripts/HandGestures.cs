@@ -22,9 +22,17 @@ public class HandGestures : MonoBehaviour
     void Update()
     {
         // index finger pinch creates an anchor
-        if(ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Index))
+        /*if(ovrHand.GetFingerIsPinching(OVRHand.HandFinger.Index))
         {
             Logger.Instance.LogInfo($"Hand ({HandType}) Pinch Strength ({ovrHand.GetFingerPinchStrength(OVRHand.HandFinger.Index)})");
+        }*/
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Interactions"))
+        {
+            Logger.Instance.LogInfo("works " + other.gameObject.name);
         }
     }
 }
